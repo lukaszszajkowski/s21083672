@@ -1,4 +1,4 @@
-s21083672
+Django loading CSS files
 =========
 This is a simple example for question from StackOverflow
 
