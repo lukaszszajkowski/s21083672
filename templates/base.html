@@ -1,0 +1,16 @@
+{% load static %}
+<head>
+<title>{% block title %}{% endblock %}</title>
+<!--link rel='stylesheet' type='text/css' href='/site_media/css/style.css' /-->
+<link rel='stylesheet' type='text/css' href="{% static 'site_media/css/style.css' %}" />
+
+</head>
+
+<body>
+    {% block header %}Test{% endblock %}
+
+    {% block content %}
+        <div id='header'>Test</div>
+    {% endblock %}
+</body>
+
